@@ -21,6 +21,16 @@
 		C062D0D12199C4390032B8B2 /* CurrentSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D0D02199C4390032B8B2 /* CurrentSpecs.m */; };
 		C062D0DB2199CCE80032B8B2 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062D0DA2199CCE80032B8B2 /* Test.swift */; };
 		C062D0DE2199CEF30032B8B2 /* TestSpec2.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D0DD2199CEF30032B8B2 /* TestSpec2.m */; };
+		C062D1182199D7B50032B8B2 /* ContainerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D10E2199D7B40032B8B2 /* ContainerSpec.m */; };
+		C062D1192199D7B50032B8B2 /* NotificationSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D10F2199D7B50032B8B2 /* NotificationSpec.m */; };
+		C062D11A2199D7B50032B8B2 /* SDKSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D1112199D7B50032B8B2 /* SDKSetup.m */; };
+		C062D11B2199D7B50032B8B2 /* XXTestNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D1122199D7B50032B8B2 /* XXTestNotification.m */; };
+		C062D11C2199D7B50032B8B2 /* NullSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D1142199D7B50032B8B2 /* NullSpec.m */; };
+		C062D11D2199D7B50032B8B2 /* UnrecognizedSelectorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D1152199D7B50032B8B2 /* UnrecognizedSelectorSpec.m */; };
+		C062D11E2199D7B50032B8B2 /* XXNotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D1162199D7B50032B8B2 /* XXNotificationObserver.m */; };
+		C062D11F2199D7B50032B8B2 /* DanglingPointerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D1172199D7B50032B8B2 /* DanglingPointerSpec.m */; };
+		C062D1252199D8550032B8B2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D1222199D8550032B8B2 /* Person.m */; };
+		C062D1262199D8550032B8B2 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D1242199D8550032B8B2 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +82,20 @@
 		C062D0DA2199CCE80032B8B2 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		C062D0DD2199CEF30032B8B2 /* TestSpec2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSpec2.m; sourceTree = "<group>"; };
 		C062D0DF2199CF0B0032B8B2 /* QuickHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickHeader.h; sourceTree = "<group>"; };
+		C062D10E2199D7B40032B8B2 /* ContainerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerSpec.m; sourceTree = "<group>"; };
+		C062D10F2199D7B50032B8B2 /* NotificationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationSpec.m; sourceTree = "<group>"; };
+		C062D1102199D7B50032B8B2 /* XXNotificationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXNotificationObserver.h; sourceTree = "<group>"; };
+		C062D1112199D7B50032B8B2 /* SDKSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKSetup.m; sourceTree = "<group>"; };
+		C062D1122199D7B50032B8B2 /* XXTestNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTestNotification.m; sourceTree = "<group>"; };
+		C062D1132199D7B50032B8B2 /* ExampleHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleHeader.h; sourceTree = "<group>"; };
+		C062D1142199D7B50032B8B2 /* NullSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NullSpec.m; sourceTree = "<group>"; };
+		C062D1152199D7B50032B8B2 /* UnrecognizedSelectorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnrecognizedSelectorSpec.m; sourceTree = "<group>"; };
+		C062D1162199D7B50032B8B2 /* XXNotificationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXNotificationObserver.m; sourceTree = "<group>"; };
+		C062D1172199D7B50032B8B2 /* DanglingPointerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanglingPointerSpec.m; sourceTree = "<group>"; };
+		C062D1212199D8550032B8B2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C062D1222199D8550032B8B2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C062D1232199D8550032B8B2 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		C062D1242199D8550032B8B2 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		D43D090039425D3FDE4DC392 /* Pods-Quick-DemosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quick-DemosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quick-DemosTests/Pods-Quick-DemosTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,12 +203,34 @@
 		C062D0CE2199C3FC0032B8B2 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				C062D1202199D8550032B8B2 /* base */,
+				C062D10E2199D7B40032B8B2 /* ContainerSpec.m */,
+				C062D1172199D7B50032B8B2 /* DanglingPointerSpec.m */,
+				C062D1132199D7B50032B8B2 /* ExampleHeader.h */,
+				C062D10F2199D7B50032B8B2 /* NotificationSpec.m */,
+				C062D1142199D7B50032B8B2 /* NullSpec.m */,
+				C062D1112199D7B50032B8B2 /* SDKSetup.m */,
+				C062D1152199D7B50032B8B2 /* UnrecognizedSelectorSpec.m */,
+				C062D1102199D7B50032B8B2 /* XXNotificationObserver.h */,
+				C062D1162199D7B50032B8B2 /* XXNotificationObserver.m */,
+				C062D1122199D7B50032B8B2 /* XXTestNotification.m */,
 				C062D0CF2199C4390032B8B2 /* CurrentSpecs.h */,
 				C062D0D02199C4390032B8B2 /* CurrentSpecs.m */,
 				C062D0DD2199CEF30032B8B2 /* TestSpec2.m */,
 				C062D0DF2199CF0B0032B8B2 /* QuickHeader.h */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		C062D1202199D8550032B8B2 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				C062D1212199D8550032B8B2 /* Person.h */,
+				C062D1222199D8550032B8B2 /* Person.m */,
+				C062D1232199D8550032B8B2 /* Student.h */,
+				C062D1242199D8550032B8B2 /* Student.m */,
+			);
+			path = base;
 			sourceTree = "<group>";
 		};
 		C654ECA7E197DC834D5F40FA /* Frameworks */ = {
@@ -399,10 +445,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C062D11C2199D7B50032B8B2 /* NullSpec.m in Sources */,
 				C062D0D12199C4390032B8B2 /* CurrentSpecs.m in Sources */,
+				C062D11A2199D7B50032B8B2 /* SDKSetup.m in Sources */,
 				C062D0B62199BD5B0032B8B2 /* Quick_DemosTests.m in Sources */,
 				C062D0DB2199CCE80032B8B2 /* Test.swift in Sources */,
+				C062D11E2199D7B50032B8B2 /* XXNotificationObserver.m in Sources */,
+				C062D1182199D7B50032B8B2 /* ContainerSpec.m in Sources */,
+				C062D11D2199D7B50032B8B2 /* UnrecognizedSelectorSpec.m in Sources */,
+				C062D11F2199D7B50032B8B2 /* DanglingPointerSpec.m in Sources */,
+				C062D1252199D8550032B8B2 /* Person.m in Sources */,
 				C062D0DE2199CEF30032B8B2 /* TestSpec2.m in Sources */,
+				C062D1262199D8550032B8B2 /* Student.m in Sources */,
+				C062D11B2199D7B50032B8B2 /* XXTestNotification.m in Sources */,
+				C062D1192199D7B50032B8B2 /* NotificationSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -81,7 +81,6 @@
 		C062D0D92199CCE80032B8B2 /* Quick-DemosTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quick-DemosTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		C062D0DA2199CCE80032B8B2 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		C062D0DD2199CEF30032B8B2 /* TestSpec2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSpec2.m; sourceTree = "<group>"; };
-		C062D0DF2199CF0B0032B8B2 /* QuickHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickHeader.h; sourceTree = "<group>"; };
 		C062D10E2199D7B40032B8B2 /* ContainerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerSpec.m; sourceTree = "<group>"; };
 		C062D10F2199D7B50032B8B2 /* NotificationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationSpec.m; sourceTree = "<group>"; };
 		C062D1102199D7B50032B8B2 /* XXNotificationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXNotificationObserver.h; sourceTree = "<group>"; };
@@ -217,7 +216,6 @@
 				C062D0CF2199C4390032B8B2 /* CurrentSpecs.h */,
 				C062D0D02199C4390032B8B2 /* CurrentSpecs.m */,
 				C062D0DD2199CEF30032B8B2 /* TestSpec2.m */,
-				C062D0DF2199CF0B0032B8B2 /* QuickHeader.h */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -677,7 +675,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Quick-DemosTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick-Demos.app/Quick-Demos";
 			};
@@ -699,7 +697,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Quick-DemosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Quick-DemosTests-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick-Demos.app/Quick-Demos";
 			};

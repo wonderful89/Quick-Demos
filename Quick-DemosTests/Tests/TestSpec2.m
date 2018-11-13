@@ -6,7 +6,8 @@
 //  Copyright © 2018年 1. All rights reserved.
 //
 
-#import "QuickHeader.h"
+@import Quick;
+@import Nimble;
 
 QuickSpecBegin(TestSpec2)
 

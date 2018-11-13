@@ -6,29 +6,28 @@
 //  Copyright © 2017年 XXShield. All rights reserved.
 //
 
-//#import <XCTest/XCTest.h>
-////#import "XXShieldSDK.h"
-////#import "XXNotificationObserved.h"
-//#import "ExampleHeader.h"
-//
-//@interface XXTestNotification : XCTestCase
-//
-//@end
-//
-//@implementation XXTestNotification
-//
-//- (void)setUp {
-//    [super setUp];
+#import <XCTest/XCTest.h>
+//#import "XXNotificationObserved.h"
+#import "ExampleHeader.h"
+
+@interface XXTestNotification : XCTestCase
+
+@end
+
+@implementation XXTestNotification
+
+- (void)setUp {
+    [super setUp];
 //    [XXShieldSDK registerStabilityWithAbility:(EXXShieldTypeNotification)];
-//}
-//
-//- (void)tearDown {
-//    // Put teardown code here. This method is called after the invocation of each test method in the class.
-//    [super tearDown];
-//}
-//
-//- (void)testNotification {
-////    [XXNotificationObserved new];
-//}
-//
-//@end
+}
+
+- (void)tearDown {
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    [super tearDown];
+}
+
+- (void)testNotification {
+//    [XXNotificationObserved new];
+}
+
+@end

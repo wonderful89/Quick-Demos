@@ -16,7 +16,6 @@
 		C062D0A92199BD5B0032B8B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C062D0A72199BD5B0032B8B2 /* LaunchScreen.storyboard */; };
 		C062D0AC2199BD5B0032B8B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D0AB2199BD5B0032B8B2 /* main.m */; };
 		C062D0B62199BD5B0032B8B2 /* Quick_DemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D0B52199BD5B0032B8B2 /* Quick_DemosTests.m */; };
-		C062D0C12199BD5B0032B8B2 /* Quick_DemosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D0C02199BD5B0032B8B2 /* Quick_DemosUITests.m */; };
 		C062D0D12199C4390032B8B2 /* CurrentSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D0D02199C4390032B8B2 /* CurrentSpecs.m */; };
 		C062D0DB2199CCE80032B8B2 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062D0DA2199CCE80032B8B2 /* Test.swift */; };
 		C062D0DE2199CEF30032B8B2 /* TestSpec2.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D0DD2199CEF30032B8B2 /* TestSpec2.m */; };
@@ -30,18 +29,10 @@
 		C062D11F2199D7B50032B8B2 /* DanglingPointerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D1172199D7B50032B8B2 /* DanglingPointerSpec.m */; };
 		C062D1252199D8550032B8B2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D1222199D8550032B8B2 /* Person.m */; };
 		C062D1262199D8550032B8B2 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D1242199D8550032B8B2 /* Student.m */; };
-		D497C39FB993EAA375D73715 /* Pods_Quick_DemosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761E380D531A72615AF62681 /* Pods_Quick_DemosUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		C062D0B22199BD5B0032B8B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C062D0912199BD590032B8B2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C062D0982199BD590032B8B2;
-			remoteInfo = "Quick-Demos";
-		};
-		C062D0BD2199BD5B0032B8B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C062D0912199BD590032B8B2 /* Project object */;
 			proxyType = 1;
@@ -60,6 +51,7 @@
 		8F4F79BC4E567251ABBF4B2A /* Pods-Quick-DemosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quick-DemosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quick-DemosUITests/Pods-Quick-DemosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9BE60F7E56C754C91B9C4688 /* Pods-Quick-Demos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quick-Demos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quick-Demos/Pods-Quick-Demos.release.xcconfig"; sourceTree = "<group>"; };
 		C017772B219F03B40077DFD5 /* SDKSetup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKSetup.h; sourceTree = "<group>"; };
+		C0177730219F1BF80077DFD5 /* libswiftCoreImage.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftCoreImage.dylib; sourceTree = "<group>"; };
 		C062D0992199BD590032B8B2 /* Quick-Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick-Demos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C062D09C2199BD590032B8B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C062D09D2199BD590032B8B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,9 +65,6 @@
 		C062D0B12199BD5B0032B8B2 /* Quick-DemosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick-DemosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C062D0B52199BD5B0032B8B2 /* Quick_DemosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quick_DemosTests.m; sourceTree = "<group>"; };
 		C062D0B72199BD5B0032B8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C062D0BC2199BD5B0032B8B2 /* Quick-DemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick-DemosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C062D0C02199BD5B0032B8B2 /* Quick_DemosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quick_DemosUITests.m; sourceTree = "<group>"; };
-		C062D0C22199BD5B0032B8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C062D0CF2199C4390032B8B2 /* CurrentSpecs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrentSpecs.h; sourceTree = "<group>"; };
 		C062D0D02199C4390032B8B2 /* CurrentSpecs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentSpecs.m; sourceTree = "<group>"; };
 		C062D0D22199C6310032B8B2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -116,14 +105,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C062D0B92199BD5B0032B8B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D497C39FB993EAA375D73715 /* Pods_Quick_DemosUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -147,7 +128,6 @@
 				C062D0D22199C6310032B8B2 /* README.md */,
 				C062D09B2199BD590032B8B2 /* Quick-Demos */,
 				C062D0B42199BD5B0032B8B2 /* Quick-DemosTests */,
-				C062D0BF2199BD5B0032B8B2 /* Quick-DemosUITests */,
 				C062D09A2199BD590032B8B2 /* Products */,
 				B3C13B0E3C1FAD49565362B4 /* Pods */,
 				C654ECA7E197DC834D5F40FA /* Frameworks */,
@@ -160,7 +140,6 @@
 			children = (
 				C062D0992199BD590032B8B2 /* Quick-Demos.app */,
 				C062D0B12199BD5B0032B8B2 /* Quick-DemosTests.xctest */,
-				C062D0BC2199BD5B0032B8B2 /* Quick-DemosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,15 +168,6 @@
 				C062D0B72199BD5B0032B8B2 /* Info.plist */,
 			);
 			path = "Quick-DemosTests";
-			sourceTree = "<group>";
-		};
-		C062D0BF2199BD5B0032B8B2 /* Quick-DemosUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C062D0C02199BD5B0032B8B2 /* Quick_DemosUITests.m */,
-				C062D0C22199BD5B0032B8B2 /* Info.plist */,
-			);
-			path = "Quick-DemosUITests";
 			sourceTree = "<group>";
 		};
 		C062D0CE2199C3FC0032B8B2 /* Tests */ = {
@@ -236,6 +206,7 @@
 		C654ECA7E197DC834D5F40FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0177730219F1BF80077DFD5 /* libswiftCoreImage.dylib */,
 				266F1042DF339D547D33457F /* Pods_Quick_Demos.framework */,
 				26CD4C3BB62B5863440719C7 /* Pods_Quick_DemosTests.framework */,
 				761E380D531A72615AF62681 /* Pods_Quick_DemosUITests.framework */,
@@ -285,25 +256,6 @@
 			productReference = C062D0B12199BD5B0032B8B2 /* Quick-DemosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C062D0BB2199BD5B0032B8B2 /* Quick-DemosUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C062D0CB2199BD5B0032B8B2 /* Build configuration list for PBXNativeTarget "Quick-DemosUITests" */;
-			buildPhases = (
-				AE9D40F5BA9D95336E9659F0 /* [CP] Check Pods Manifest.lock */,
-				C062D0B82199BD5B0032B8B2 /* Sources */,
-				C062D0B92199BD5B0032B8B2 /* Frameworks */,
-				C062D0BA2199BD5B0032B8B2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C062D0BE2199BD5B0032B8B2 /* PBXTargetDependency */,
-			);
-			name = "Quick-DemosUITests";
-			productName = "Quick-DemosUITests";
-			productReference = C062D0BC2199BD5B0032B8B2 /* Quick-DemosUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -320,11 +272,6 @@
 					C062D0B02199BD5B0032B8B2 = {
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1000;
-						TestTargetID = C062D0982199BD590032B8B2;
-					};
-					C062D0BB2199BD5B0032B8B2 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = C062D0982199BD590032B8B2;
 					};
 				};
 			};
@@ -343,7 +290,6 @@
 			targets = (
 				C062D0982199BD590032B8B2 /* Quick-Demos */,
 				C062D0B02199BD5B0032B8B2 /* Quick-DemosTests */,
-				C062D0BB2199BD5B0032B8B2 /* Quick-DemosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -360,13 +306,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C062D0AF2199BD5B0032B8B2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C062D0BA2199BD5B0032B8B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -414,24 +353,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quick-DemosTests/Pods-Quick-DemosTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AE9D40F5BA9D95336E9659F0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Quick-DemosUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B4CAB8E162EE1353C68A4086 /* [CP] Check Pods Manifest.lock */ = {
@@ -504,14 +425,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C062D0B82199BD5B0032B8B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C062D0C12199BD5B0032B8B2 /* Quick_DemosUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -519,11 +432,6 @@
 			isa = PBXTargetDependency;
 			target = C062D0982199BD590032B8B2 /* Quick-Demos */;
 			targetProxy = C062D0B22199BD5B0032B8B2 /* PBXContainerItemProxy */;
-		};
-		C062D0BE2199BD5B0032B8B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C062D0982199BD590032B8B2 /* Quick-Demos */;
-			targetProxy = C062D0BD2199BD5B0032B8B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -668,6 +576,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Quick-Demos/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -695,6 +604,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Quick-Demos/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -716,14 +626,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D43D090039425D3FDE4DC392 /* Pods-Quick-DemosTests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Quick-DemosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -740,7 +654,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick-Demos.app/Quick-Demos";
 			};
 			name = Debug;
 		};
@@ -748,14 +661,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12943A1EABD150D68C00EBD3 /* Pods-Quick-DemosTests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Quick-DemosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -771,43 +688,6 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Quick-DemosTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick-Demos.app/Quick-Demos";
-			};
-			name = Release;
-		};
-		C062D0CC2199BD5B0032B8B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 018B97C7BA9D61CDF9204F54 /* Pods-Quick-DemosUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Quick-DemosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.Quick-DemosUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Quick-Demos";
-			};
-			name = Debug;
-		};
-		C062D0CD2199BD5B0032B8B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F4F79BC4E567251ABBF4B2A /* Pods-Quick-DemosUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Quick-DemosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.Quick-DemosUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Quick-Demos";
 			};
 			name = Release;
 		};
@@ -837,15 +717,6 @@
 			buildConfigurations = (
 				C062D0C92199BD5B0032B8B2 /* Debug */,
 				C062D0CA2199BD5B0032B8B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C062D0CB2199BD5B0032B8B2 /* Build configuration list for PBXNativeTarget "Quick-DemosUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C062D0CC2199BD5B0032B8B2 /* Debug */,
-				C062D0CD2199BD5B0032B8B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

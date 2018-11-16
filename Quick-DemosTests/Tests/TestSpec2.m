@@ -14,6 +14,7 @@ QuickSpecBegin(TestSpec2)
 describe(@"NullSpec test", ^{
     it(@"test 333", ^{
         NSString *result = [@"" stringByAppendingString:@"fafa"];
+        NSLog(@"NullSpec test 3333");
         expect(result).to(equal(@"fafa"));
     });
 });

@@ -12,9 +12,7 @@
 @implementation CurrentSpecs
 
 - (void)spec{
-    
     NSString *test1 = @"test";
-    
     describe(@"My Test", ^{
         it(@"My Test 1", ^{
             NSString *aa = @"test";

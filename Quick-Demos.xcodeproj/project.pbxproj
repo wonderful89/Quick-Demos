@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28BDB19E851AAF636A2B7EB9 /* libPods-Quick-DemosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D12849AB25909D1CCB113D8 /* libPods-Quick-DemosTests.a */; };
-		9465D98936F2765554B077A5 /* libPods-Quick-DemosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5DD05344011DBE4D20BEA8 /* libPods-Quick-DemosUITests.a */; };
-		A15AF078B961B61F4FB7C7BA /* libPods-Quick-Demos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C33DA726A21EE36FC4F697 /* libPods-Quick-Demos.a */; };
+		AC82BBED00780EF0C930A714 /* Pods_Quick_DemosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CD4C3BB62B5863440719C7 /* Pods_Quick_DemosTests.framework */; };
+		BF04D50FE3688F66BF3DEC52 /* Pods_Quick_Demos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266F1042DF339D547D33457F /* Pods_Quick_Demos.framework */; };
 		C062D09E2199BD590032B8B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D09D2199BD590032B8B2 /* AppDelegate.m */; };
 		C062D0A12199BD590032B8B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D0A02199BD590032B8B2 /* ViewController.m */; };
 		C062D0A42199BD590032B8B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C062D0A22199BD590032B8B2 /* Main.storyboard */; };
@@ -31,6 +30,7 @@
 		C062D11F2199D7B50032B8B2 /* DanglingPointerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D1172199D7B50032B8B2 /* DanglingPointerSpec.m */; };
 		C062D1252199D8550032B8B2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D1222199D8550032B8B2 /* Person.m */; };
 		C062D1262199D8550032B8B2 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = C062D1242199D8550032B8B2 /* Student.m */; };
+		D497C39FB993EAA375D73715 /* Pods_Quick_DemosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761E380D531A72615AF62681 /* Pods_Quick_DemosUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,13 +52,14 @@
 
 /* Begin PBXFileReference section */
 		018B97C7BA9D61CDF9204F54 /* Pods-Quick-DemosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quick-DemosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quick-DemosUITests/Pods-Quick-DemosUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		0D12849AB25909D1CCB113D8 /* libPods-Quick-DemosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Quick-DemosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E745279767947D92F98A7CB /* Pods-Quick-Demos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quick-Demos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quick-Demos/Pods-Quick-Demos.debug.xcconfig"; sourceTree = "<group>"; };
 		12943A1EABD150D68C00EBD3 /* Pods-Quick-DemosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quick-DemosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quick-DemosTests/Pods-Quick-DemosTests.release.xcconfig"; sourceTree = "<group>"; };
-		3A5DD05344011DBE4D20BEA8 /* libPods-Quick-DemosUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Quick-DemosUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		266F1042DF339D547D33457F /* Pods_Quick_Demos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quick_Demos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CD4C3BB62B5863440719C7 /* Pods_Quick_DemosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quick_DemosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		761E380D531A72615AF62681 /* Pods_Quick_DemosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quick_DemosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F4F79BC4E567251ABBF4B2A /* Pods-Quick-DemosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quick-DemosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quick-DemosUITests/Pods-Quick-DemosUITests.release.xcconfig"; sourceTree = "<group>"; };
-		94C33DA726A21EE36FC4F697 /* libPods-Quick-Demos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Quick-Demos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE60F7E56C754C91B9C4688 /* Pods-Quick-Demos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quick-Demos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quick-Demos/Pods-Quick-Demos.release.xcconfig"; sourceTree = "<group>"; };
+		C017772B219F03B40077DFD5 /* SDKSetup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKSetup.h; sourceTree = "<group>"; };
 		C062D0992199BD590032B8B2 /* Quick-Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick-Demos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C062D09C2199BD590032B8B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C062D09D2199BD590032B8B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A15AF078B961B61F4FB7C7BA /* libPods-Quick-Demos.a in Frameworks */,
+				BF04D50FE3688F66BF3DEC52 /* Pods_Quick_Demos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28BDB19E851AAF636A2B7EB9 /* libPods-Quick-DemosTests.a in Frameworks */,
+				AC82BBED00780EF0C930A714 /* Pods_Quick_DemosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9465D98936F2765554B077A5 /* libPods-Quick-DemosUITests.a in Frameworks */,
+				D497C39FB993EAA375D73715 /* Pods_Quick_DemosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +209,7 @@
 				C062D1132199D7B50032B8B2 /* ExampleHeader.h */,
 				C062D10F2199D7B50032B8B2 /* NotificationSpec.m */,
 				C062D1142199D7B50032B8B2 /* NullSpec.m */,
+				C017772B219F03B40077DFD5 /* SDKSetup.h */,
 				C062D1112199D7B50032B8B2 /* SDKSetup.m */,
 				C062D1152199D7B50032B8B2 /* UnrecognizedSelectorSpec.m */,
 				C062D1102199D7B50032B8B2 /* XXNotificationObserver.h */,
@@ -234,9 +236,9 @@
 		C654ECA7E197DC834D5F40FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				94C33DA726A21EE36FC4F697 /* libPods-Quick-Demos.a */,
-				0D12849AB25909D1CCB113D8 /* libPods-Quick-DemosTests.a */,
-				3A5DD05344011DBE4D20BEA8 /* libPods-Quick-DemosUITests.a */,
+				266F1042DF339D547D33457F /* Pods_Quick_Demos.framework */,
+				26CD4C3BB62B5863440719C7 /* Pods_Quick_DemosTests.framework */,
+				761E380D531A72615AF62681 /* Pods_Quick_DemosUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -252,6 +254,7 @@
 				C062D0952199BD590032B8B2 /* Sources */,
 				C062D0962199BD590032B8B2 /* Frameworks */,
 				C062D0972199BD590032B8B2 /* Resources */,
+				1CA98295EE83EC8186587501 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,6 +273,7 @@
 				C062D0AD2199BD5B0032B8B2 /* Sources */,
 				C062D0AE2199BD5B0032B8B2 /* Frameworks */,
 				C062D0AF2199BD5B0032B8B2 /* Resources */,
+				346459C434FEB87579445944 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -372,6 +376,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1CA98295EE83EC8186587501 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Quick-Demos/Pods-Quick-Demos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XXShield/XXShield.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XXShield.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quick-Demos/Pods-Quick-Demos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		346459C434FEB87579445944 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Quick-DemosTests/Pods-Quick-DemosTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XXShield/XXShield.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XXShield.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quick-DemosTests/Pods-Quick-DemosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AE9D40F5BA9D95336E9659F0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -630,9 +674,8 @@
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-ObjC",
-					"-l\"XXShield\"",
-					"-lc++",
+					"-framework",
+					"\"XXShield\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Quick-Demos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -658,9 +701,8 @@
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-ObjC",
-					"-l\"XXShield\"",
-					"-lc++",
+					"-framework",
+					"\"XXShield\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Quick-Demos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -682,6 +724,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"XXShield\"",
+					"-framework",
+					"\"Nimble\"",
+					"-framework",
+					"\"Quick\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Quick-DemosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -705,6 +756,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"XXShield\"",
+					"-framework",
+					"\"Nimble\"",
+					"-framework",
+					"\"Quick\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Quick-DemosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";

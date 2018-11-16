@@ -11,6 +11,9 @@
 QuickSpecBegin(NullSpec)
 
 describe(@"NullSpec test", ^{
+    
+    [XXShieldSDK registerStabilityWithAbility:EXXShieldTypeNSNull];
+    
     it(@"should avoid crash by send message to 'NSString' class", ^{
         NSString *null = (NSString *)[NSNull null];
         NSString *result = [null stringByAppendingString:@"fafa"];

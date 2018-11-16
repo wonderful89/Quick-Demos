@@ -19,3 +19,5 @@ end
 end
 
 ```
+
+Adding -lc++ and -ObjC in "other linker flags" at the test-target solved this issue.

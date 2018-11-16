@@ -11,6 +11,6 @@
 
 @import Quick;
 @import Nimble;
-//@import XXShield;
+#import <XXShield/XXShield.h>
 
 #endif /* ExampleHeader_h */

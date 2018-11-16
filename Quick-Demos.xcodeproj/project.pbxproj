@@ -628,6 +628,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"XXShield\"",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Quick-Demos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -649,6 +655,12 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"XXShield\"",
+					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Quick-Demos";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -7,6 +7,8 @@ target 'Quick-Demos' do
 
   # Pods for Quick-Demos
 
+  pod 'XXShield',:git => 'https://github.com/ValiantCat/XXShield'
+  
   target 'Quick-DemosTests' do
     inherit! :search_paths
     pod 'Quick'

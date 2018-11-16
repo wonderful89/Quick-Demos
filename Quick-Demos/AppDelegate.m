@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+@import ObjectiveC.runtime;
+#import <XXShield/XXShield.h>
+
 
 @interface AppDelegate ()
 
@@ -18,6 +21,25 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     NSLog(@"AppDelegate didFinishLaunchingWithOptions");
+//    [XXShieldSDK registerStabilitySDK];
+    
+//    [XXShieldSDK registerStabilityWithAbility:EXXShieldTypeContainer];
+//    NSCache *cache = [[NSCache alloc] init];
+//    id stub = nil;
+//    [cache setObject:@"val" forKey:@"key"];
+//    [cache setObject:stub forKey:@"key"];
+    
+    [XXShieldSDK registerStabilityWithAbility:EXXShieldTypeContainer];
+    NSArray *aa = @[@"111"];
+    NSLog(@"aa[3] = %@", aa[3]);
+    NSString *nilValue = nil;
+    NSDictionary *bb = @{
+                         @"aaa": nilValue,
+                         @"bbb": @0,
+                         @"ccc": @"cccV"
+                         };
+    NSLog(@"bb = %@", bb);
+    
     return YES;
 }
 

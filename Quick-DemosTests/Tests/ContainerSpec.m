@@ -24,6 +24,8 @@ describe(@"Container test", ^{
     context(@"NSCache test", ^{
         // 往NSCache中出入空值不会crash
         it(@"should avoid crash by insert nil value  to NSCache", ^{
+            [XXShieldSDK registerStabilityWithAbility:EXXShieldTypeContainer];
+            
             NSCache *cache = [[NSCache alloc] init];
             id stub = nil;
             [cache setObject:@"val" forKey:@"key"]; //

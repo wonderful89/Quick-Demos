@@ -18,6 +18,7 @@
 QuickSpecBegin(UnrecognizedSelectorSpec)
 
 describe(@"UnrecognizedSelector test", ^{
+//    [XXShieldSDK registerStabilityWithAbility:EXXShieldTypeUnrecognizedSelector];
     it(@"should raise an exception when send message to an doesn't exist method while the class from system.", ^{
         expectAction(^{
             NSObject *object = NSObject.new;
